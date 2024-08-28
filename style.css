@@ -496,7 +496,6 @@ footer {
 スマートフォン用のスタイル
 ====================*/
 @media screen and (max-width: 767px) {
-}
   body{
     min-width: 375px;
     margin: 0;
@@ -524,6 +523,7 @@ footer {
     display: none;
     z-index: 100;
   }
+}
 
   /* ボタン */
   #close{
@@ -563,6 +563,15 @@ footer {
     background-position: right top;
   }
 
+  #sns{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  #sns > a {
+    margin-right: 30px
+  }
+
 
 #cases{
   margin: 40px 0 40px 0;
@@ -573,6 +582,7 @@ ul{
   display: flex;
   list-style: none;
 }
+/* li要素 */
 li{
   width: 33%;
   margin: 20px;
