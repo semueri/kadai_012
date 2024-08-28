@@ -510,6 +510,7 @@ footer {
     float: right;
     padding: 0;
   }
+}
 
   /* スマホ用ナビゲーションの表示切替 */
   /* 初期状態、レイアウトと非表示設定 */
@@ -523,7 +524,6 @@ footer {
     display: none;
     z-index: 100;
   }
-}
 
   /* ボタン */
   #close{
@@ -606,4 +606,9 @@ li{
 }
 #case-content{
   font-size: 14px;
+}
+
+/* 追加したコード */
+#case-card img{
+  width: 100%;
 }
