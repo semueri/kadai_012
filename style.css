@@ -140,6 +140,102 @@ h3 {
   margin-top: 50px;
 }
 
+
+  /* mission.html用スタイル */
+  /* ミッションのメインビジュアル */
+ #mission-main {
+    height: 496px;
+    width: 100%;
+    background-image: url("images/mission/mission-main.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#mission-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+}
+
+#mission-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+}
+
+#mission-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+}
+
+#mission-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+}
+
+#mission-s2dgs {
+    width: 100%;
+    margin: 20px;
+}
+
+.mission-h2 {
+    color: #2710d5;
+    font-size: 40px;
+}
+
+.mission-h2::after {
+    content: none;
+}
+
+/* 5Goalsセクション */
+.mission-5goals {
+    margin: 20px;
+    display: flex;
+}
+/* 左右のカラムをグループ化 */
+#mission-5goals > div {
+    flex-grow: 1;
+    padding: 20px;
+}
+/* 個々のコンテンツをグループ化 */
+#mission-5goals > div > div {
+    margin-bottom: 40px;
+}
+/* コンテンツ右側画像 */
+.fivegoals-image-right {
+    float: right;
+    margin: 20px;
+}
+/* コンテンツ左側画像 */
+.fivegoals-image-left {
+    float: left;
+    margin: 20px;
+}
+/* コンテンツの番号 */
+.fivegoals-number {
+    color: #2710d5;
+    font-size: 48px;
+    margin: 0;
+}
+/* コンテンツの見出し */
+.fivegoals-h3 {
+    font-size: 28px;
+    margin: 0;
+}
+/* コンテンツの説明文 */
+.fivegoals-p {
+    margin: 0;
+}
+
+
 /* プロダクト */
 #product {
   background-color: #fafafa;
@@ -864,6 +960,7 @@ footer {
 .radiobutton + label::after {
     content: "\A";
     white-space: pre;
+}
 
 /* フッター */
 footer {
@@ -907,7 +1004,6 @@ footer {
     margin-top: 30px;
     color: #ffffff;
 }
-}
 
 /* mission.html用スタイル */
 /* ミッションのメインビジュアル */
@@ -948,40 +1044,42 @@ footer {
   left: 20px;
   font-size: 13px;
 }
+
+/* MISSION-S2dgS */
 #mission-s2dgs {
-  width: 100%;
   margin: 20px;
 }
 .mission-h2 {
   color: #2710d5;
-  font-size: 40px;
+  font-size: 38px;
+  margin: 0;
 }
 .mission-h2::after {
   content:none
 }
-
+#mission-s2dgs img {
+  width: 100%;
+}
+ /* MISSION-5Goals */
 #mission-5goals {
   margin: 20px;
-  display: flex;
-}
-
-#mission-5goals > div {
-  flex-grow: 1;
-  padding: 20px;
 }
 
 #mission-5goals > div > div {
   margin-bottom: 40px;
 }
+#s2dgs-image {
+  width: 100%;
+}
 
 .fivegoals-image-right {
-  float: right;
-  margin: 20px;
+  margin: 20px auto 20px auto;
+  display: block;
 }
 
 .fivegoals-image-left {
-  float: left;
-  margin: 20px;
+  margin: 20px auto 20px auto;
+  display: block;
 }
 
 .fivegoals-number {
